@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            padding-right: 20%;
+            padding-left: 10%;
+            padding-top: 30px;
+            background-color: #f8f0df;
+            
+        }
+
+        .product-name {
+            position: relative;
+            text-align: center;
+        }
+
+        .product-info {
+            margin-left: 50px;
+        }
+
+        .size-box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 100px;
+            cursor: pointer;
+            user-select: none;
+            justify-content: space-between;
+            margin left: 2em;
+        }
+
+        .size-box.selected {
+            background-color: lightblue;
+        }
+
+    .item-info {
+        text-align: center;
+        padding-left: 70%;
+        padding-bottom: 70%;
+        position: relative;
+        margin-bottom: 7em;
+    }
+
+    </style>
+    <title>Product 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="London-Streetwear-2019_large.jpg" alt="Product Image" width="100%" height="auto">
+            <h1 class="product-name">Product 1</h1>
+        </div>
+        <div class="size-box" onclick="handleClick(event)">S</div>
+
+    <script>
+        function handleClick(event) {
+            const sizeBox = event.target;
+            sizeBox.classList.toggle('selected');
+        }
+    </script>
+     <div class="size-box" onclick="handleClick(event)">M</div>
+
+     <script>
+         function handleClick(event) {
+             const sizeBox = event.target;
+             sizeBox.classList.toggle('selected');
+         }
+     </script>
+      <div class="size-box" onclick="handleClick(event)">L</div>
+
+      <script>
+          function handleClick(event) {
+              const sizeBox = event.target;
+              sizeBox.classList.toggle('selected');
+          }
+      </script>
+       <div class="size-box" onclick="handleClick(event)">XL</div>
+
+       <script>
+           function handleClick(event) {
+               const sizeBox = event.target;
+               sizeBox.classList.toggle('selected');
+           }
+       </script>
+    </div>
+
+</body>
+</html>

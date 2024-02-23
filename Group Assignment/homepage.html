@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Website Name-->
+  <title>Name</title>
+  <!--CSS-->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: justify;
+      background-color: #f8f0df;
+    }
+
+    .product-line {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .product-item {
+            width: calc(32% - 10px);
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+        .product-image {
+            width: 90%;
+        }
+        .product-title {
+            padding: 10px;
+            text-align: center;
+        }
+
+    header {
+      background-color: #79b4b7;
+      color: #fefbf3;
+      padding: 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      text-align: right;
+      padding: 1rem;
+      background-color: #9d9d9d;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+    main {
+      display: flex;
+      justify-content: space-around;
+      padding: 2rem;
+    }
+
+    .card {
+      background-color: #f4f4f4;
+      padding: 1rem;
+      width: 20rem;
+      text-align: center;
+    }
+
+    .card h2 {
+      margin: 0.5rem 0;
+    }
+
+    .card p {
+      margin: 0;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!--Homepage Logo-->
+  <header>
+    <h1>Name</h1>
+  </header>
+  <!--Navigation button-->
+  <nav>
+    <a href="homepage.html">Home</a>
+    <a href="#">Store</a>
+    <a href="#">About us</a>
+    <a href="#">Contact</a>
+  </nav>
+<!--Promotion banner-->
+  <main>
+    <div style="text-align:center; padding: 10px 0;">
+        <a href="#">
+          <img src="Streetwear-style.jpg" alt="Promotion banner" width="80%" style="border-width: 10px 10px 10px 10px; border-style: solid; border-color: #eb3b3b;">>
+        </a>
+      </div>
+  </main>
+  <!--Homepage Item Lineup-->
+  <h1>Best Sellers</h1>
+  <ul class="product-line">
+    <li class="product-item">
+        <a href="product 1.html" class="product-image-link">
+            <img src="London-Streetwear-2019_large.jpg" alt="Product 1" class="product-image">
+        </a>
+        <h2 class="product-title">Product 1</h2>
+    </li>
+    <li class="product-item">
+      <a href="product 2.html" class="product-image-link">
+          <img src="London-Streetwear-2019_large.jpg" alt="Product 2" class="product-image">
+      </a>
+      <h2 class="product-title">Product 2</h2>
+  </li>
+  <li class="product-item">
+    <a href="product 3.html" class="product-image-link">
+        <img src="London-Streetwear-2019_large.jpg" alt="Product 3" class="product-image">
+    </a>
+    <h2 class="product-title">Product 3</h2>
+</li>
+    <!-- Add more product items here -->
+</ul>
+<!--Footer-->
+  <footer>
+    <p>&copy; 2023 Straatkleding. All rights reserved.</p>
+  </footer>
+</body>
+</html>
